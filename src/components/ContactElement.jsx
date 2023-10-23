@@ -1,6 +1,6 @@
 import css from "./Styles.module.css"
 export const ContactElement = ({ id, name, number, onDelete }) => {
-  console.log(id);
+  // console.log(id);
   return (
     <li className={css.item}>
       <span className={css.item}>
