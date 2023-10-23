@@ -1,0 +1,42 @@
+.main {
+    margin-left: 15px;
+}
+.form {
+    display: flex;
+        flex-direction: column;
+        width: 350px;
+        border: 1px solid rgb(17, 3, 3);
+        padding: 10px;
+}
+.btn{
+    width: 100px;
+   border: 1px solid rgb(197, 191, 191);
+   border-radius: 5px;
+   margin-top: 20px; 
+background-color: transparent;
+}
+.btn:hover{
+    background-color: rgba(89, 159, 239, 0.714);
+}
+.filter {
+    display: grid;
+}
+.input{
+    width: 150px;
+    margin-top: 5px;
+    border: 1px solid rgb(197, 191, 191);
+}
+.item{
+    margin: 5px;
+}
+.btnDel{
+    width: 50px;
+    margin-left: 10px;
+    border: 1px solid rgb(197, 191, 191);
+        border-radius: 5px;
+        background-color: transparent;
+        font-size: 10px;
+}
+.btnDel:hover {
+    background-color: rgba(89, 159, 239, 0.714);
+}
